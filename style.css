@@ -163,7 +163,7 @@ header {
 
 .bg {
   position: fixed;
-  background: url(/PortofolioWEB/image/pexels-eberhardgross-1292115.jpg);
+  background: url(assets/pexels-eberhardgross-1292115.jpg);
   height: 100vh;
   background-position: center center;
   background-size: cover;
