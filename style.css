@@ -312,9 +312,8 @@ a {
 
 .sosmed > div > p {
   font-size: 2rem;
-  padding: 0px 40px;
+  padding: 0px 20px;
   animation: pulse 3s infinite;
-  width: 10px;
 }
  
 @keyframes pulse {
