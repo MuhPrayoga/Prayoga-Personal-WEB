@@ -308,14 +308,12 @@ a {
   width: 50%;
   align-items: center;
   justify-content: center;
-  border: 2px solid #fff;
 }
 
 .sosmed > div > p {
   font-size: 2rem;
   padding: 0px 40px;
   animation: pulse 3s infinite;
-  border: 2px solid #fff;
   width: 10px;
 }
  
