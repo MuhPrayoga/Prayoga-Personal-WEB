@@ -348,7 +348,7 @@ a {
   width: 80%;
   display: flex;
   align-items: center;
-  text-align: justify;
+  text-align: left;
   flex-wrap: wrap;
 
 }
@@ -519,6 +519,7 @@ a {
 @media (min-width: 768px) {
   #about > .wrapper {
       padding: 50px;
+      text-align: justify;
   }
    #about > .wrapper > p{
     font-size: 100%;
@@ -536,6 +537,7 @@ a {
 @media (min-width: 1024px) {
   #about > .wrapper {
     padding: 50px;
+    text-align: justify;
   }
 
   #about > .wrapper > p{
