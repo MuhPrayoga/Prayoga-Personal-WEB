@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="/PortofolioWEB/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!--Menu-->
+    <nav>
+        <div class="wrapper">
+            <div></div>
+            <div>PERSONAL WEB</div>
+        </div>
+    </nav>
+    <menu>
+        <div class="drawer">
+                <input type="checkbox" id="drawer-checkbox">
+                <div class="label">
+                    <label for="drawer-checkbox" class="drawer__name">
+                    <strong><i class="fa-solid fa-bars"></i></strong>
+                    </label>
+                </div>
+                <ul class="drawer__content">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#myproject">Project</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+    </menu>
+
+    <!--hero-->
+    <header id="home">
+        <div class="header-opacity"></div>
+        <div class="bg"></div>
+        <div class="header-jumbotron">
+            <div class="profile-image">
+                <img src="/PortofolioWEB/image/IMG_20230728_212416.jpg" alt="Walpaper" >
+            </div>
+            <div class="typewriter">
+                <h1>Hello...</h1>
+            </div>
+            <h4>I am Muhammad Bagas Prayoga</h4>
+            <p class="p2">UI/UX Designer at OMAHTI || Software Engineer at Software and Data Engineering Research Laboratory || Computer Science Student at University of Gadjah Mada </p>
+            <a href="" class="button button-xl">Let's Talk <i class="fa-solid fa-arrow-right"></i></a>
+            <div class="sosmed">
+                <div><p><a href="https://github.com/MuhPrayoga"><i class="fa-brands fa-github"></i></a></p></div>
+                <div><p><a href="https://www.instagram.com/mbp.prayoga/"><i class="fa-brands fa-instagram"></i></a></p></div>
+                <div><p><a href="https://www.linkedin.com/in/m-bagas-prayoga-a36bb82a7/"><i class="fa-brands fa-linkedin-in"></i></a></p></div>
+                <div><p><a href="https://x.com/PrayogaM661348"><i class="fa-brands fa-x-twitter"></i></a></p></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+    <div class="wrapper" >
+        <h4 data-aos="fade-right" data-aos-delay="100">About <span>Me</span></h4>
+        <p data-aos="fade-left" data-aos-delay="100"><b>Hi there!</b> I'm a web developer with a growing curiosity in full stack development. I started my journey with web design and am currently delving into front-end development, creating user-friendly interfaces and improving user experience. Than, I will expand my skills to backend technologies, aiming to become a well-rounded full stack developer.
+        With a focus on continuous learning and a strong foundation in front-end design, I enjoy creating websites that are both functional and visually appealing. I'm excited to dive deeper into the world of full stack development and to bring more comprehensive solutions to life.
+        </p>
+    </div>
+    </section>
+
+    <section id="myproject">
+        <div class="wrapper">
+            <h4 data-aos="fade-up" data-aos-delay="100">Project</h4>
+            <div class="card">
+                <div class="project-img" data-aos="fade-right" data-aos-delay="200">
+                    <img src="/PortofolioWEB/image/image1.png" alt="project1-img" >
+                </div>
+                <div class="project-content" data-aos="fade-left">
+                    <h5>Personal Website</h5>
+                    <p>A personal website is a website created to showcase information about an individual, such as their profile, portfolio, work, experience, and contact details. It is often used for professional or personal purposes, allowing individuals to introduce themselves online.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="project-img" data-aos="fade-right" data-aos-delay="200">
+                    <img src="/PortofolioWEB/image/image2.jpg" alt="Project2-Img" >
+                </div>
+                <div class="project-content" data-aos="fade-left">
+                    <h5>MALPRES MIPA 2024</h5>
+                    <p>An annual event of the Faculty of Mathematics and Natural Sciences (FMIPA) at Gadjah Mada University (UGM), with the website serving as a platform for ticket sales and voting.</p>
+                </div>
+            </div><div class="card">
+                <div class="project-img" data-aos="fade-right" data-aos-delay="200">
+                    <img src="/PortofolioWEB/image/image3.jpg" alt="Project Img">
+                </div>
+                <div class="project-content" data-aos="fade-left">
+                    <h5>Oprec MAKOMTI</h5>
+                    <p>A platform for registering new candidates for HIMAKOM and OMAHTI.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="wrapper"> 
+            <h4 data-aos="fade-up">Contact Me</h4>
+            <p data-aos="fade-left">+62 852-3626-2126</p>
+            <p data-aos="fade-right"><a href="https://www.instagram.com/mbp.prayoga/">@mbp.prayoga</a></p>
+            <p data-aos="fade-left"><a href="https://x.com/PrayogaM661348">prayogagres@gmail.com </a></p>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="wrapper">
+            <p>
+                <i class="fa-solid fa-mountain-sun"></i>
+                <small>&copy;Copyright 2024 Muhammad Bagas Prayoga.</small>
+                <small>All Right Reversed</small>
+            </p>
+            <div class="footer-list">
+                    <ul>
+                        <li><h6>Quick Link</h6></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#myproject">My project</a></li>
+                    </ul>
+            </div>
+            <div class="footer-list">
+                    <ul>
+                        <li><h6>Explore more</h6></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#myproject">My project</a></li>
+                    </ul>
+            </div>
+            <div class="footer-list">
+                    <ul>
+                        <li><h6>Connect with me</h6></li>
+                        <li><a href="https://github.com/MuhPrayoga">Github</a></li>
+                        <li><a href="https://www.instagram.com/mbp.prayoga/">Intagram</a></li>
+                        <li><a href="https://www.linkedin.com/in/m-bagas-prayoga-a36bb82a7/">LinkedIn</a></li>
+                        <li><a href="https://x.com/PrayogaM661348">Email </a></li>
+                    </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="aos-init.js"></script> <!-- Menyambungkan file JavaScript eksternal -->
+</body>
+</html>
