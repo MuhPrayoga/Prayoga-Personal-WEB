@@ -314,7 +314,7 @@ a {
   font-size: 2rem;
   padding: 0px 40px;
   animation: pulse 3s infinite;
-  width: 50%;
+  width: 10px;
 }
  
 @keyframes pulse {
