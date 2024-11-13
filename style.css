@@ -435,6 +435,7 @@ a {
 .project-content > h5 {
   margin: 10px 10px 10px 0px;
   font-size: 25px;
+    text-align: left;
 }
 
 .project-content > p {
