@@ -11,3 +11,9 @@ document.querySelectorAll(".drawer__content a").forEach(link => {
         document.getElementById("drawer-checkbox").checked = false;
     });
 });
+
+document.getElementById("refreshLink").addEventListener("click", function(event) {
+    event.preventDefault();  // Mencegah scroll otomatis ke #home
+    window.location.href = "#home"; // Mengarah ke #home
+    window.location.reload();  // Me-refresh halaman
+});
