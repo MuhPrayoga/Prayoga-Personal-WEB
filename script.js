@@ -5,3 +5,9 @@ AOS.init({
     mirror: true,           // Memungkinkan animasi berfungsi saat scroll ke atas
     offset: 100             // Mulai animasi saat elemen lebih dekat ke viewport
 });
+
+document.querySelectorAll(".drawer__content a").forEach(link => {
+    link.addEventListener("click", () => {
+        document.getElementById("drawer-checkbox").checked = false;
+    });
+});
