@@ -312,7 +312,7 @@ a {
 
 .sosmed > div > p {
   font-size: 2rem;
-  padding: 0px 20px;
+  padding: 0px 30px;
   animation: pulse 3s infinite;
 }
  
@@ -350,18 +350,15 @@ a {
   align-items: center;
   text-align: left;
   flex-wrap: wrap;
-
 }
 
 #about > .wrapper > p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 0.2rem;
-  padding: 30px;
   color: #fff;
-  margin-top: 10px ;
+  margin-top: -10px ;
   flex: 1 1 200px ;
   font-size: 12px;
-
 }
 
 #about > .wrapper > h4 {
@@ -384,12 +381,13 @@ a {
 #myproject {
   background-color: #0A0A0A;
   color: black;
+
 }
 
 #myproject > .wrapper {
-  padding: 30px 50px;
-  width: 80%;
+  width: 100%;
   text-align: center;
+
 }
 
 #myproject > .wrapper h4 {
@@ -397,8 +395,9 @@ a {
   font-size: 2rem;
   padding: 5px;
   margin: 10px 10px 10px 10px;
-  padding: 30px 10px;
+  padding: 30px;
   border-bottom: 1px solid #ffffff;
+
 }
 
  .card { 
@@ -406,7 +405,7 @@ a {
   align-items: start;
   text-align: justify;
   flex-wrap: wrap;
-  margin: 50px auto;
+  margin: 30px auto;
   width: 80%;
 }
 
@@ -520,9 +519,11 @@ a {
   #about > .wrapper {
       padding: 50px;
       text-align: justify;
+      width: 80%;
   }
    #about > .wrapper > p{
     font-size: 100%;
+    padding: 30px;
    }
 
    .project-content > p {
@@ -530,7 +531,16 @@ a {
   }
 
   .sosmed > div > p {
-    width: 100%;
+    padding: 0px 50px;
+  }
+  
+  #myproject > .wrapper {
+    padding: 30px 50px;
+    width: 80%;
+  }
+
+  .card { 
+    margin: 50px auto;
   }
 }
 
@@ -538,10 +548,12 @@ a {
   #about > .wrapper {
     padding: 50px;
     text-align: justify;
+    width: 80%;
   }
 
   #about > .wrapper > p{
     font-size: 100%;
+    padding: 30px;
    }
 
   .project-content > p {
@@ -549,6 +561,15 @@ a {
   }
 
   .sosmed > div > p {
-    width: 100%;
+    padding: 0px 60px;
+  }
+
+  #myproject > .wrapper {
+    padding: 30px 50px;
+    width: 80%;
+  }
+
+  .card { 
+    margin: 50px auto;
   }
 }
