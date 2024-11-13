@@ -59,6 +59,8 @@ background-color: transparent;
 
 .drawer {
   position: relative;
+  -webkit-tap-highlight-color: transparent; /* Untuk menghilangkan warna biru di iOS dan sebagian besar browser Android */
+    outline: none; /* Untuk menghilangkan outline di sebagian besar browser */
 }
 
 .drawer > .label {
@@ -82,8 +84,7 @@ background-color: transparent;
   opacity: 0;
   pointer-events: none;
   transition: 0.2s;
-    -webkit-tap-highlight-color: transparent; /* Untuk menghilangkan warna biru di iOS dan sebagian besar browser Android */
-  outline: none; /* Untuk menghilangkan outline di sebagian besar browser */
+  border: 2px solid #fff;
 }
 
 .drawer input:checked ~ .drawer__content {
@@ -91,7 +92,7 @@ background-color: transparent;
   opacity: 1;
   pointer-events: initial;
   padding: 0px;
-  background-color: #222831;
+  background-color: #0A0A0A;
   border-radius: 10px;
 }
 
